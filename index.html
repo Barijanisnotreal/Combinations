@@ -6,6 +6,7 @@
     <meta lang="es">
     <title>Alelos Prueba</title>
     <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
 </head>
 
 <body>
@@ -19,6 +20,30 @@
             <span><a href="#leyes">Las leyes de Mendel</a></span>
             <span><a href="#genetica">La genética</a></span>
         </div>
+    </div>
+    
+    <div style="float:left; margin-right: 1em;">
+      <div>
+        <h1>Alelos, osea alelos👍</h1>
+        <p>Alelo 1: <input type="text" id="alelo1" required /></p>
+        <p>Alelo 2: <input type="text" id="alelo2" required /></p>
+
+        <div>
+          <button
+            id="crear"
+            onclick="crearTabla()"
+          >
+            Crear tabla
+          </button>
+          <button
+            id="reset"
+            onclick="limpiar()"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div id="crear"></div>
     </div>
 
     <div id="gregor" class="card">
