@@ -290,9 +290,9 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -302,7 +302,7 @@ button {
             flex-direction: column;
   }
   .card img {
-    width: 30%;
+    width: 20%;
     height: auto;
     margin: 0 20px 0 0;
   }
@@ -315,6 +315,7 @@ button {
     margin: 20px;
     line-height: 40px;
     font-size: 20px;
+    text-align: justify;
   }
   .menu div:nth-child(1) {
     display: none;
