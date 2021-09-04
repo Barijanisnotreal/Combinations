@@ -276,6 +276,10 @@ button {
   margin: 20px;
 }
 
+.foot a {
+    text-decoration: none;
+}
+
 @media (max-width: 1450px) {
   .menu div:nth-child(1) {
     display: none;
