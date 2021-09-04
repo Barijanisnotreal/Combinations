@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  font-family: 'Press Start 2P';
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.start {
+  width: 100%;
+  height: 90vh;
+  margin: 0;
+  background-color: rgba(128, 255, 0, 0.527);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(128, 255, 0, 0.527);
+  height: 10vh;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.menu div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 100%;
+  border-right: solid black;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.menu div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 0 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  height: 100%;
+}
+
+.menu div:nth-child(2) span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  font-size: 130%;
+  word-spacing: 5px;
+  cursor: pointer;
+}
+
+.menu div:nth-child(2) span a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu div:nth-child(2) span:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.menu:hover {
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(128, 255, 0, 0.527);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card img {
+  width: 500px;
+  height: auto;
+  margin: 0 20px 0 0;
+}
+
+.card h1 {
+  font-size: 3rem;
+}
+
+.card p {
+  line-height: 40px;
+  font-size: 1.5rem;
+}
+
+#gregor {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 255, 0, 0.527)), to(lightblue));
+  background: linear-gradient(rgba(128, 255, 0, 0.527), lightblue);
+}
+
+@media (max-width: 1450px) {
+  .menu div:nth-child(1) {
+    display: none;
+  }
+  .menu div:nth-child(2) span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+    font-size: 100%;
+    word-spacing: 5px;
+    cursor: pointer;
+  }
+  .menu div:nth-child(2) span:hover {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
