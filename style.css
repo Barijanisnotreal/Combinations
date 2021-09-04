@@ -31,7 +31,7 @@ button {
   width: 100%;
   height: 90vh;
   margin: 0;
-  background-color: rgba(128, 255, 0, 0.527);
+  background-color: rgba(128, 255, 0, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +67,7 @@ button {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  background-color: rgba(128, 255, 0, 0.527);
+  background-color: rgba(128, 255, 0, 0.8);
   height: 10vh;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -135,7 +135,7 @@ button {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: rgba(128, 255, 0, 0.527);
+  background-color: rgba(128, 255, 0, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,7 +152,7 @@ button {
 }
 
 .card img {
-  width: 500px;
+  width: 30%;
   height: auto;
   margin: 0 20px 0 0;
 }
@@ -163,19 +163,20 @@ button {
 }
 
 .card p {
+  height: 100%;
   margin: 20px;
   line-height: 40px;
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .calculator {
   float: left;
   margin-right: 1rem;
-  background-color: rgba(128, 255, 0, 0.527);
+  background-color: rgba(128, 255, 0, 0.8);
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: rgba(128, 255, 0, 0.527);
+  background-color: rgba(128, 255, 0, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,7 +193,7 @@ button {
 }
 
 .calculator img {
-  width: 500px;
+  width: 30%;
   height: auto;
   margin: 0 20px 0 0;
 }
@@ -203,9 +204,10 @@ button {
 }
 
 .calculator p {
+  height: 100%;
   margin: 20px;
   line-height: 40px;
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .calculator div {
@@ -254,8 +256,8 @@ button {
 }
 
 #gregor {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 255, 0, 0.527)), to(lightblue));
-  background: linear-gradient(rgba(128, 255, 0, 0.527), lightblue);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 255, 0, 0.8)), to(lightblue));
+  background: linear-gradient(rgba(128, 255, 0, 0.8), lightblue);
 }
 
 #crear {
@@ -276,11 +278,44 @@ button {
   margin: 20px;
 }
 
-.foot a {
-    text-decoration: none;
-}
-
 @media (max-width: 1450px) {
+  p {
+    font-size: 14px !important;
+  }
+  .card {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(128, 255, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card img {
+    width: 30%;
+    height: auto;
+    margin: 0 20px 0 0;
+  }
+  .card h1 {
+    margin: 20px;
+    font-size: 3rem;
+  }
+  .card p {
+    height: 100%;
+    margin: 20px;
+    line-height: 40px;
+    font-size: 20px;
+  }
   .menu div:nth-child(1) {
     display: none;
   }
